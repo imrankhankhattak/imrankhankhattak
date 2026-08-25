@@ -1,37 +1,15 @@
 {
   "widgets": [
     {
-      "widgetId": "header",
-      "name": "Header Widget",
+      "widgetId": "ascii-art",
+      "name": "Ascii-art Widget",
       "position": {
         "x": 0,
         "y": 0
       },
       "size": {
-        "width": 800,
-        "height": 108
-      },
-      "config": {
-        "showTitle": false,
-        "accentColor": "#00ffff",
-        "animationType": "slide-down",
-        "animationPreviewKey": 3
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 1,
-      "instanceId": "widget_1787652680733_0"
-    },
-    {
-      "widgetId": "ascii-art",
-      "name": "Ascii-art Widget",
-      "position": {
-        "x": 0,
-        "y": 106
-      },
-      "size": {
-        "width": 400,
-        "height": 400
+        "width": 448,
+        "height": 448
       },
       "config": {
         "detail": "custom",
@@ -5008,11 +4986,11 @@
       "widgetId": "terminal-info",
       "name": "Terminal-info Widget",
       "position": {
-        "x": 400,
-        "y": 132
+        "x": 440,
+        "y": 48
       },
       "size": {
-        "width": 360,
+        "width": 344,
         "height": 352
       },
       "config": {
@@ -5040,7 +5018,8 @@
     "borderRadius": 0,
     "padding": 24,
     "themeMode": "dark",
-    "templateStyle": "native"
+    "templateStyle": "native",
+    "transparentBackground": true
   },
   "templateId": "terminal"
 }
